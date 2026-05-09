@@ -1,0 +1,9 @@
+[project]
+name = "spark-big-data-labs"
+version = "0.1.0"
+description = "PySpark labs for big data practice."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
